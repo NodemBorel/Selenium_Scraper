@@ -5,6 +5,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import json
 
-browser = uc.ChromeOptions()
+browser = uc.Chrome()
 browser.get('https://www.glassdoor.com/index.htm')
 
